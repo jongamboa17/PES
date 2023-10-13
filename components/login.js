@@ -2,7 +2,9 @@ import logo from '../utilities/logo1.png'
 import Image from 'next/image'
 export default function login (){
     return (
-
+      <>
+      
+      
       <div data-theme="light" className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
         <div className="sm:mx-auto sm:w-full sm:max-w-sm">
           <Image
@@ -64,6 +66,7 @@ export default function login (){
           </form>
         </div>
       </div>
-    
+
+      </>
     )
 }

@@ -11,6 +11,7 @@ export default function Content_home (){
         
 
         <div className="py-5 px-5 grid grid-cols-1 gap-x-2 gap-y-3 grid-flow-row-dense ">
+            {/*div de los botones*/}
             <div className="rounded-lg min-h-[50px] row-span-2">
                 <div className="p-1 text-center">
                     <button data-modal-target="authentication-modal" data-modal-toggle="authentication-modal"
@@ -27,15 +28,40 @@ export default function Content_home (){
                     </button>
                 </div>    
             </div> 
+            {/*div del centro*/}
             <div className="py-5 px-5 grid grid-cols-2 gap-x-2 gap-y-3 grid-flow-row-dense ">
-                <div className=" rounded-lg shadow-xl min-h-[50px] row-span-5">                    
+                <div className="bg-slate-100 rounded-lg shadow-xl min-h-[50px] row-span-5">                    
                     
 
     
                 </div> 
-                <div className=" rounded-lg shadow-xl min-h-[50px] row-span-5"></div>
+                <div className="bg-slate-100 rounded-lg shadow-xl min-h-[50px] row-span-5"></div>
+            </div>
+            {/*div de las estadisticas de abajo*/}
+            <div class="sm:hidden">
+                
+            </div>
+            <div className="py-5 px-5 grid grid-cols-4 gap-x-2 gap-y-3 grid-flow-row-dense">
+                
+                    <div class="bg-blue-700 rounded-md flex flex-col items-center justify-center py-2">
+                        <dt class="mb-2 text-3xl text-white font-extrabold ">73</dt>
+                        <dd class="text-white dark:text-gray-400">Usuarios Activos</dd>
+                    </div>
+                    <div class="bg-blue-700 rounded-md flex flex-col items-center justify-center py-2">
+                        <dt class="mb-2 text-3xl text-white font-extrabold ">73</dt>
+                        <dd class="text-white dark:text-gray-400">Usuarios Activos</dd>
+                    </div>
+                    <div class="bg-blue-700 rounded-md flex flex-col items-center justify-center py-2">
+                        <dt class="mb-2 text-3xl text-white font-extrabold ">73</dt>
+                        <dd class="text-white dark:text-gray-400">Usuarios Activos</dd>
+                    </div>
+                    <div class="bg-blue-700 rounded-md flex flex-col items-center justify-center py-2">
+                        <dt class="mb-2 text-3xl text-white font-extrabold ">73</dt>
+                        <dd class="text-white dark:text-gray-400">Usuarios Activos</dd>
+                    </div>
             </div>
         </div>
+        
         
 
 

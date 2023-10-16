@@ -4,8 +4,8 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import logo from '../utilities/logo1.png'
 import Image from 'next/image'
 const navigation = [
-  { name: 'Docentes', href: '#', current: false },
-  { name: 'Grupos', href: '#', current: false },
+  { name: 'Docentes', href: 'http://localhost:3000/docentes', current: false },
+  { name: 'Grupos', href: 'http://localhost:3000/grupos', current: false },
   { name: 'Asignaturas', href: '#', current: false },
   //{ name: 'Calendar', href: '#', current: false },
 ]

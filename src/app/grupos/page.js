@@ -8,13 +8,10 @@ import Modal from "../../../components/modal_usuario"
 import Nuevo_usuario from "../../../components/forms/nuevo_usuario"
 import Nueva_asignatura from "../../../components/forms/nueva_asignatura"
 import Alumnos_pendientes from '../../../components/alumnos_pendientes'
-//import Accordion from '../../../components/accordion/accordion';
-//import Tabla_docentes from '../../../components/tablas/tabla_docentes'
-//import Image from 'next/image'
-
 export default function Grupos() {
     const[showModal, setShowModal]=useState(false);
     const[showModal2, setShowModal2]=useState(false);
+    
   return (
     <>  
         <Home_admin></Home_admin>

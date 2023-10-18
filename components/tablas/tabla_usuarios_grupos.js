@@ -9,7 +9,7 @@ export default function Tabla_usuarios_grupos() {
                 <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                     <tr>
                         <th scope="col" class="p-4">
-                            
+                           
                         </th>
                         <th scope="col" class="px-6 py-3">
                             Nombre
@@ -27,7 +27,8 @@ export default function Tabla_usuarios_grupos() {
                 </thead>
                 <tbody>
                     <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
-                        <td class="w-4 p-4">
+                        <td class="w-4 pl-6">
+                            <input  id="link-checkbox" type="checkbox" value="" class="w-5 h-5 rounded-md mr-2"/>
                             
                         </td>
                         <th scope="row" class="flex items-center px-6 py-4 text-gray-900 whitespace-nowrap dark:text-white">
@@ -50,7 +51,8 @@ export default function Tabla_usuarios_grupos() {
                         </td>
                     </tr>
                     <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
-                        <td class="w-4 p-4">
+                        <td class="w-4 pl-6">
+                            <input  id="link-checkbox" type="checkbox" value="" class="w-5 h-5 rounded-md mr-2"/>
                             
                         </td>
                         <th scope="row" class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
@@ -73,8 +75,8 @@ export default function Tabla_usuarios_grupos() {
                         </td>
                     </tr>
                     <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
-                        <td class="w-4 p-4">
-                            
+                        <td class="w-4 pl-6">
+                            <input  id="link-checkbox" type="checkbox" value="" class="w-5 h-5 rounded-md mr-2"/>
                         </td>
                         <th scope="row" class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                             <Image width="10"  height="10" class="w-10 h-10 rounded-full" src={logo} alt="Jese image"></Image>
@@ -96,8 +98,8 @@ export default function Tabla_usuarios_grupos() {
                         </td>
                     </tr>
                     <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
-                        <td class="w-4 p-4">
-                            
+                        <td class="w-4 pl-6">
+                            <input  id="link-checkbox" type="checkbox" value="" class="w-5 h-5 rounded-md mr-2"/>  
                         </td>
                         <th scope="row" class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                             <Image width="10"  height="10" class="w-10 h-10 rounded-full" src={logo} alt="Jese image"></Image>
@@ -119,8 +121,8 @@ export default function Tabla_usuarios_grupos() {
                         </td>
                     </tr>
                     <tr class="bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-600">
-                        <td class="w-4 p-4">
-                            
+                        <td class="w-4 pl-6">
+                            <input  id="link-checkbox" type="checkbox" value="" class="w-5 h-5 rounded-md mr-2"/> 
                         </td>
                         <th scope="row" class="flex items-center px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                             <Image  width="10"  height="10" class="w-10 h-10 rounded-full" src={logo} alt="Jese image"></Image>

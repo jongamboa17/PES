@@ -4,27 +4,16 @@ import { useEffect } from 'react';
 import Tabla_usuarios_grupos from '../tablas/tabla_usuarios_grupos';
 export default function Accordion() {
     useEffect(() => {
-        // Esperar a que el documento se cargue completamente
-            document.addEventListener("click", function (event) {
-                // Comprobar si se hizo clic en un botón de acordeón
-                const boton = event.target.closest("[data-accordion-target]");
-            
-                if (boton) {
-                // Encontrar el panel de contenido asociado
-                const idPanel = boton.getAttribute("data-accordion-target");
-                const panelContenido = document.querySelector(idPanel);
-            
-                if (panelContenido) {
-                    // Alternar la visibilidad del panel oculto
-                    panelContenido.classList.toggle("hidden");
-                }
-            
-                // Alternar el estado "aria-expanded"
-                const estaExpandido = boton.getAttribute("aria-expanded") === "true";
-                boton.setAttribute("aria-expanded", String(!estaExpandido));
-                }
-            });
-        
+        // Cerrar todos los acordeones al inicio
+        const accordionButtons = document.querySelectorAll("[data-accordion-target]");
+        accordionButtons.forEach((button) => {
+          const targetId = button.getAttribute("data-accordion-target");
+          const targetPanel = document.querySelector(targetId);
+          if (targetPanel) {
+            targetPanel.classList.add("hidden");
+            button.setAttribute("aria-expanded", "false");
+          }
+        });
       }, []);
   return (
     <>     
@@ -101,6 +90,40 @@ export default function Accordion() {
             <Tabla_usuarios_grupos></Tabla_usuarios_grupos>
             </div>
         </div>
+        <h2 id="accordion-collapse-heading-6" className='bg-white'>
+            <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-6" aria-expanded="false" aria-controls="accordion-collapse-body-6">
+            <span className='px-7'>Tercer Grado-B</span>
+            <span class="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-green-400 border border-green-400">12 Alumnos</span>
+            </button>
+        </h2>
+        <div id="accordion-collapse-body-6" class="hidden" aria-labelledby="accordion-collapse-heading-2">
+            <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+            <Tabla_usuarios_grupos></Tabla_usuarios_grupos>
+            </div>
+        </div>
+        <h2 id="accordion-collapse-heading-6" className='bg-white'>
+            <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-6" aria-expanded="false" aria-controls="accordion-collapse-body-6">
+            <span className='px-7'>Tercer Grado-B</span>
+            <span class="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-green-400 border border-green-400">12 Alumnos</span>
+            </button>
+        </h2>
+        <div id="accordion-collapse-body-6" class="hidden" aria-labelledby="accordion-collapse-heading-2">
+            <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+            <Tabla_usuarios_grupos></Tabla_usuarios_grupos>
+            </div>
+        </div>
+        <h2 id="accordion-collapse-heading-6" className='bg-white'>
+            <button type="button" class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-6" aria-expanded="false" aria-controls="accordion-collapse-body-6">
+            <span className='px-7'>Tercer Grado-B</span>
+            <span class="bg-green-100 text-green-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-green-400 border border-green-400">12 Alumnos</span>
+            </button>
+        </h2>
+        <div id="accordion-collapse-body-6" class="hidden" aria-labelledby="accordion-collapse-heading-2">
+            <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+            <Tabla_usuarios_grupos></Tabla_usuarios_grupos>
+            </div>
+        </div>
+        
         
         </div>
    

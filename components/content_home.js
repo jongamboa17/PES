@@ -1,4 +1,5 @@
 import { Fragment, useState } from "react"
+import 'flowbite';
 import Modal from "../components/modal_usuario"
 import Nuevo_usuario from "../components/forms/nuevo_usuario"
 import Nueva_asignatura from "../components/forms/nueva_asignatura"

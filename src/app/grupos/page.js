@@ -36,7 +36,7 @@ export default function Grupos() {
                 </div>    
             </div> 
 
-            <div className="py-1 px-5 grid grid-cols-2 gap-x-2 gap-y-3 grid-flow-row-dense ">
+            <div className="py-1 px-5 grid grid-cols-2  gap-x-2 gap-y-3 grid-flow-row-dense ">
                 <div className="bg-white rounded-lg shadow-xl min-h-[400px] row-span-5"><Accordion2></Accordion2></div>
                 <div className="bg-white rounded-lg shadow-xl min-h-[400px] row-span-5">
                     <div className=" px-5 grid grid-cols-1 gap-x-2 gap-y-3 grid-flow-row-dense">

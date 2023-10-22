@@ -8,7 +8,7 @@ const navigation = [
   //{ name: 'Docentes', href: 'http://localhost:3000/docentes', current: false },
   //{ name: 'Grupos', href: 'http://localhost:3000/grupos', current: false },
   //{ name: 'Asignaturas', href: '#', current: false },
-  //{ name: 'Calendar', href: '#', current: false },
+  //{ name: 'Calificaciones', href: '#', current: false },
 ]
 
 function classNames(...classes) {
@@ -24,8 +24,10 @@ export default function Home_admin() {
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div className="relative flex h-16 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                
+                {/**Agregar menu para mobile */}
+
               </div>
+              
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                   <Image
@@ -33,18 +35,21 @@ export default function Home_admin() {
                     src={logo}
                     alt="Your Company"
                   />
-                  
+                  <p className='pl-5 text-stone-50'>Eco Centro Educativo Braulio C.</p>
                 </div>
+                
                 
                 <div className="hidden sm:ml-6 md:block">
                   <div className="flex space-x-10">
+                  
                     
                     {navigation.map((item) => (
+                      
                       <a
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-stone-50' : 'text-stone-50 hover:bg-neutral-950 hover:text-white',
+                          item.current ? 'bg-gray-900 text-stone-50' : 'text-stone-50 hover:bg-green-700 hover:text-white',
                           'rounded-md px-3 py-2 text-sm font-medium'
                         )}
                         aria-current={item.current ? 'page' : undefined}

@@ -86,7 +86,7 @@ export default function Grupos() {
                 <dt class="mb-2 text-3xl text-white font-extrabold ">73</dt>
                 <dd class="text-white dark:text-gray-400">Usuarios Activos</dd>
             </div>
-            <div class="bg-red-500 rounded-md flex flex-col items-center justify-center py-2">
+            <div class="bg-red-600 rounded-md flex flex-col items-center justify-center py-2">
                 <dt class="mb-2 text-3xl text-white font-extrabold ">20</dt>
                 <dd class="text-white dark:text-gray-400">Usuarios Inactivos</dd>
             </div>

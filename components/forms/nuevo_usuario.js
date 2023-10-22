@@ -7,7 +7,7 @@ export default function Nuevo_usuario(){
                             Nuevo Usuario
                         </h3>
                     </div>    
-                </div>
+               
                 <form action="#" className="py-5">
                     <div class="grid gap-4 mb-4 sm:grid-cols-2">
                         <div>
@@ -30,7 +30,7 @@ export default function Nuevo_usuario(){
                             </select>
                         </div>
                         <div class="flex items-center mr-4">
-                            <input checked id="teal-checkbox" type="checkbox" value="" class="w-4 h-4 text-teal-600 bg-gray-100 border-gray-300 rounded focus:ring-teal-500 dark:focus:ring-teal-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                            <input id="teal-checkbox" type="checkbox" value="" class="w-4 h-4 text-teal-600 bg-gray-100 border-gray-300 rounded focus:ring-teal-500 dark:focus:ring-teal-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
                             <label for="teal-checkbox" class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Activar Usuario</label>
                         </div>
                     </div>
@@ -39,6 +39,7 @@ export default function Nuevo_usuario(){
                         Crear Usuario
                     </button>
                 </form>
+                </div>
             </>
     )
 }

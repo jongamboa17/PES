@@ -21,43 +21,43 @@ export default function Criterios_evaluacion() {
                                 <li>
                                 <a href="#" class="flex items-center px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
                                     <input  id="link-checkbox" type="checkbox" value="" class="w-5 h-5 rounded-md mr-2"/>
-                                    Robert Gough
+                                    Proyecto 1
                                 </a>
                                 </li>
                                 <li>
                                 <a href="#" class="flex items-center px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
                                     <input  id="link-checkbox" type="checkbox" value="" class="w-5 h-5 rounded-md mr-2"/>
-                                    Bonnie Green
+                                    Proyecto 2
                                 </a>
                                 </li>
                                 <li>
                                 <a href="#" class="flex items-center px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
                                     <input  id="link-checkbox" type="checkbox" value="" class="w-5 h-5 rounded-md mr-2"/>
-                                    Leslie Livingston
+                                    Tareas
                                 </a>
                                 </li>
                                 <li>
                                 <a href="#" class="flex items-center px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
                                     <input  id="link-checkbox" type="checkbox" value="" class="w-5 h-5 rounded-md mr-2"/>
-                                    Michael Gough
+                                    Asistencia
                                 </a>
                                 </li>
                                 <li>
                                 <a href="#" class="flex items-center px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
                                     <input  id="link-checkbox" type="checkbox" value="" class="w-5 h-5 rounded-md mr-2"/>
-                                    Joseph Mcfall
+                                    Trabajo Cotidiano
                                 </a>
                                 </li>
                                     <li>
                                 <a href="#" class="flex items-center px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
                                     <input  id="link-checkbox" type="checkbox" value="" class="w-5 h-5 rounded-md mr-2"/>
-                                    Roberta Casas
+                                    Examén 1
                                 </a>
                                 </li>
                                 <li>
                                 <a href="#" class="flex items-center px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
                                     <input  id="link-checkbox" type="checkbox" value="" class="w-5 h-5 rounded-md mr-2"/>
-                                    Neil Sims
+                                    Examén 2
                                 </a>
                                 </li>
                             </ul>
